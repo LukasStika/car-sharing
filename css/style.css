@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #FF0000;
+  --bgprimary: #FFFFFF;
+  --bgsecondary: #28272C;
+
+  --textprimary: #FFFFFF;
+  --textsecondary: #6A6A6A;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
